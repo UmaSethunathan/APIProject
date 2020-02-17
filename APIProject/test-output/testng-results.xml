@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3947" started-at="2020-02-17T05:00:54Z" finished-at="2020-02-17T05:00:58Z">
+    <groups>
+    </groups>
+    <test name="CreateCustomerTest" duration-ms="3947" started-at="2020-02-17T05:00:54Z" finished-at="2020-02-17T05:00:58Z">
+      <class name="com.w2a.testCases.CreateParam">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.w2a.testCases.CreateParam@68be2bc2]" name="setup" is-config="true" duration-ms="1142" started-at="2020-02-17T00:00:53Z" finished-at="2020-02-17T00:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.testCases.CreateParam@68be2bc2]" name="validateCreateCustomerAPI" duration-ms="2528" started-at="2020-02-17T00:00:54Z" data-provider="Paramdata" finished-at="2020-02-17T00:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=java@way2automation.com, name=Rahul Arora, description=Adding the Second customer in framework}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPI -->
+        <test-method status="PASS" signature="validateCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.testCases.CreateParam@68be2bc2]" name="validateCreateCustomerAPI" duration-ms="679" started-at="2020-02-17T00:00:57Z" data-provider="Paramdata" finished-at="2020-02-17T00:00:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=corporate@way2automation.com, name=Raman Arora, description=Adding the Third Customer in Framework}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPI -->
+        <test-method status="PASS" signature="validateCreateCustomerAPI(java.util.Hashtable)[pri:0, instance:com.w2a.testCases.CreateParam@68be2bc2]" name="validateCreateCustomerAPI" duration-ms="679" started-at="2020-02-17T00:00:58Z" data-provider="Paramdata" finished-at="2020-02-17T00:00:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=ishita@way2automation.com, name=Ishita Arora, description=Adding the forth Customer in framework}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPI -->
+      </class> <!-- com.w2a.testCases.CreateParam -->
+    </test> <!-- CreateCustomerTest -->
+  </suite> <!-- Suite -->
+</testng-results>
